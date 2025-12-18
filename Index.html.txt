@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Next Wave IT | Miami IT Support</title>
+  <meta name="description" content="Next Wave IT provides fast, reliable IT support for Miami small businesses. Networking, computer repair, and managed IT services.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Next Wave IT</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn">Free IT Checkup</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h2>Reliable IT Support for Miami Businesses</h2>
+    <p>Fast, secure, and affordable computer & network solutions — on-site and remote.</p>
+    <a href="#contact" class="btn large">Get a Free IT Checkup</a>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <div class="container">
+    <h3>Our Services</h3>
+    <div class="grid">
+      <div class="card">Computer Repair & Optimization</div>
+      <div class="card">Wi-Fi & Network Setup</div>
+      <div class="card">Printer & Email Support</div>
+      <div class="card">Data Backup & Security</div>
+      <div class="card">Managed IT Services</div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing" class="section alt">
+  <div class="container">
+    <h3>Simple Pricing</h3>
+    <div class="grid">
+      <div class="card">
+        <h4>One-Time Support</h4>
+        <p>$150–$250 on-site</p>
+        <p>$120/hr remote</p>
+      </div>
+      <div class="card">
+        <h4>Monthly Support</h4>
+        <p>Starter: $750</p>
+        <p>Standard: $1,200</p>
+        <p>Premium: $2,000</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container">
+    <h3>About Next Wave IT</h3>
+    <p>
+      Next Wave IT helps Miami small businesses stay productive by keeping their
+      technology running smoothly. We focus on speed, security, and long-term solutions.
+    </p>
+  </div>
+</section>
+
+<section id="contact" class="section alt">
+  <div class="container">
+    <h3>Get a Free IT Checkup</h3>
+    <form id="contactForm">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="tel" placeholder="Phone" required>
+      <textarea placeholder="How can we help?" required></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <p class="or">or</p>
+    <a href="https://wa.me/1XXXXXXXXXX" class="whatsapp">Chat on WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Next Wave IT — Miami, FL</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
